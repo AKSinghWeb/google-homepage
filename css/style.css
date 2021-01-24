@@ -1,0 +1,52 @@
+#sgn-button {
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+}
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+#l {
+     color:#fff;
+     font-weight: bold;
+}
+.nav {
+   font-family: arial,sans-serif; 
+   display: flex;
+   align-items: center;  
+   justify-content: flex-end; 
+   
+ }
+
+
+ .img {
+    
+     position: relative;
+     top: 130px;
+     width: auto;
+  text-align: center;
+ }
+ .sb{
+  
+     position: relative;
+     text-align: center;
+     top: 150px;
+ }
+ .searchbox {
+     width:50%;
+    padding: 10px;
+
+ }
+ .foot{
+     position: absolute;
+     top: auto;
+     left: 0;
+     right: 0;
+     bottom: 0;
+ 
+ }
