@@ -53,6 +53,20 @@ ul {
        width: auto;
     text-align: center;
    }
+   .btn{
+    position: relative;
+    top: 30px;
+}
+    .bttn{
+        padding: 10px 16px;
+        color: #3c4043;
+        font-size: 14px;
+        margin: 11px 4px;
+        border-radius: 4px;
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+    }
+
    .sb{
     
        position: relative;
@@ -60,12 +74,15 @@ ul {
        top: 150px;
    }
    .searchbox {
-       width:50%;
-      padding: 8px;}
+       width:40%;
+      padding: 10px;
+    }
   
  .cntry{
-     position: relative;
-     top: 25.2em;
+     position: absolute;
+     top: 36em;
+     left: 0px;
+     width: 110%;
      color: gray;
      background-color: #f2f2f2;
        padding:  10px;
