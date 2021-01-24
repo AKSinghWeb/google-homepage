@@ -1,52 +1,87 @@
-#sgn-button {
-    background: #4285f4;
-    border: 1px solid #4285f4;
-    border-radius: 3px;
-    padding: 6px 12px;
-    font-size: 13px;
-    display: flex;
-    justify-content: end;
+*{
+    font-family: arial,sans-serif; 
 }
-a {
-    text-decoration: none;
-    color: rgba(0,0,0,0.87);
-}
-#l {
-     color:#fff;
-     font-weight: bold;
-}
-.nav {
-   font-family: arial,sans-serif; 
-   display: flex;
-   align-items: center;  
-   justify-content: flex-end; 
-   
- }
-
-
- .img {
-    
-     position: relative;
-     top: 130px;
-     width: auto;
-  text-align: center;
- }
- .sb{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
   
-     position: relative;
-     text-align: center;
-     top: 150px;
- }
- .searchbox {
-     width:50%;
-    padding: 10px;
-
- }
- .foot{
-     position: absolute;
-     top: auto;
-     left: 0;
-     right: 0;
-     bottom: 0;
+  li{
+    display: inline;
+  }
+  li a:hover{
+      text-decoration: underline;
  
+  }
+  li a{
+  padding: 0px 6px;}
+  .sn {
+    color:#fff;
+    font-weight: bold;
+      position: relative;
+      bottom: 1px;
+      background: #4285f4;
+      border: 1px solid #4285f4;
+      border-radius: 3px;
+      padding: 6px 10px;
+      font-size: 13px;
+  }
+  li a {
+      text-decoration: none;
+      color: gray;
+  }
+ 
+  .nav {
+      display: inline;
+      position: relative;
+      top: 10px;
+      
+    font-family: arial,sans-serif; 
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end; 
+    
+  }
+  
+  
+   .img {
+      
+       position: relative;
+       top: 130px;
+       width: auto;
+    text-align: center;
+   }
+   .sb{
+    
+       position: relative;
+       text-align: center;
+       top: 150px;
+   }
+   .searchbox {
+       width:50%;
+      padding: 8px;}
+  
+ .cntry{
+     position: relative;
+     top: 25.2em;
+     color: gray;
+     background-color: #f2f2f2;
+       padding:  10px;
+       border: 1px solid  #dadce0;
+       display: flex;
+       justify-content: stretch;
  }
+   .foot
+   {
+       position: absolute;
+       top: auto;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       background-color: #f2f2f2;
+       padding: 10px;
+       border: 1px solid  #dadce0;
+        }
+  
