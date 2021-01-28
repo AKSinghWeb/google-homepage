@@ -1,2 +1,2 @@
-First project for cloning google homepage.
-This is the first commit.
+First project.
+Cloning google homepage using HTML and CSS.
